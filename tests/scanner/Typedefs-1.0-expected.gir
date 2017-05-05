@@ -19,6 +19,7 @@ and/or use gtk-doc annotations.  -->
             glib:type-name="TypedefsBoxedWithAnonymousTypedef"
             glib:get-type="typedefs_boxed_with_anonymous_typedef_get_type"
             c:symbol-prefix="boxed_with_anonymous_typedef">
+      <position filename="../typedefs.h" line="72" column="-1"/>
       <field name="value" writable="1">
         <type name="gint" c:type="int"/>
       </field>
@@ -28,12 +29,14 @@ and/or use gtk-doc annotations.  -->
             glib:type-name="TypedefsBoxedWithHiddenStruct"
             glib:get-type="typedefs_boxed_with_hidden_struct_get_type"
             c:symbol-prefix="boxed_with_hidden_struct">
+      <position filename="../typedefs.h" line="79" column="-1"/>
     </record>
     <record name="BoxedWithTagAndTypedef"
             c:type="TypedefsBoxedWithTagAndTypedef"
             glib:type-name="TypedefsBoxedWithTagAndTypedef"
             glib:get-type="typedefs_boxed_with_tag_and_typedef_get_type"
             c:symbol-prefix="boxed_with_tag_and_typedef">
+      <position filename="../typedefs.h" line="63" column="-1"/>
       <field name="value" writable="1">
         <type name="gint" c:type="int"/>
       </field>
@@ -43,6 +46,8 @@ and/or use gtk-doc annotations.  -->
             glib:type-name="TypedefsBoxedWithTypedefAfter"
             glib:get-type="typedefs_boxed_with_typedef_after_get_type"
             c:symbol-prefix="boxed_with_typedef_after">
+      <position filename="../typedefs.h" line="53" column="-1"/>
+      <position filename="../typedefs.h" line="54" column="-1"/>
       <field name="value" writable="1">
         <type name="gint" c:type="int"/>
       </field>
@@ -52,30 +57,38 @@ and/or use gtk-doc annotations.  -->
             glib:type-name="TypedefsBoxedWithTypedefBefore"
             glib:get-type="typedefs_boxed_with_typedef_before_get_type"
             c:symbol-prefix="boxed_with_typedef_before">
+      <position filename="../typedefs.h" line="41" column="-1"/>
+      <position filename="../typedefs.h" line="44" column="-1"/>
       <field name="value" writable="1">
         <type name="gint" c:type="int"/>
       </field>
     </record>
     <record name="StructWithAnonymousTypedef"
             c:type="TypedefsStructWithAnonymousTypedef">
+      <position filename="../typedefs.h" line="15" column="-1"/>
       <field name="value" writable="1">
         <type name="gint" c:type="int"/>
       </field>
     </record>
     <record name="StructWithTagAndTypedef"
             c:type="TypedefsStructWithTagAndTypedef">
+      <position filename="../typedefs.h" line="34" column="-1"/>
       <field name="value" writable="1">
         <type name="gint" c:type="int"/>
       </field>
     </record>
     <record name="StructWithTypedefAfter"
             c:type="TypedefsStructWithTypedefAfter">
+      <position filename="../typedefs.h" line="27" column="-1"/>
+      <position filename="../typedefs.h" line="28" column="-1"/>
       <field name="value" writable="1">
         <type name="gint" c:type="int"/>
       </field>
     </record>
     <record name="StructWithTypedefBefore"
             c:type="TypedefsStructWithTypedefBefore">
+      <position filename="../typedefs.h" line="18" column="-1"/>
+      <position filename="../typedefs.h" line="21" column="-1"/>
       <field name="value" writable="1">
         <type name="gint" c:type="int"/>
       </field>

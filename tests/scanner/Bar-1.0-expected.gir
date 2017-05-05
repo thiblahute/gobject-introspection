@@ -20,6 +20,8 @@ and/or use gtk-doc annotations.  -->
            glib:type-name="BarBaz"
            glib:get-type="bar_baz_get_type"
            glib:type-struct="BazClass">
+      <position filename="../barapp.h" line="11" column="-1"/>
+      <position filename="../barapp.h" line="21" column="-1"/>
       <field name="parent_instance">
         <type name="GObject.Object" c:type="GObject"/>
       </field>
@@ -27,6 +29,8 @@ and/or use gtk-doc annotations.  -->
     <record name="BazClass"
             c:type="BarBazClass"
             glib:is-gtype-struct-for="Baz">
+      <position filename="../barapp.h" line="11" column="-1"/>
+      <position filename="../barapp.h" line="21" column="-1"/>
       <field name="parent_class">
         <type name="GObject.ObjectClass" c:type="GObjectClass"/>
       </field>
@@ -38,7 +42,10 @@ and/or use gtk-doc annotations.  -->
            glib:type-name="MutterWindow"
            glib:get-type="mutter_window_get_type"
            glib:type-struct="MutterWindowClass">
+      <position filename="../barapp.h" line="43" column="-1"/>
+      <position filename="../barapp.h" line="53" column="-1"/>
       <method name="func" c:identifier="mutter_window_func">
+        <position filename="../barapp.h" line="59" column="-1"/>
         <return-value transfer-ownership="none">
           <type name="none" c:type="void"/>
         </return-value>
@@ -58,16 +65,20 @@ and/or use gtk-doc annotations.  -->
     <record name="MutterWindowClass"
             c:type="MutterWindowClass"
             glib:is-gtype-struct-for="MutterWindow">
+      <position filename="../barapp.h" line="43" column="-1"/>
+      <position filename="../barapp.h" line="53" column="-1"/>
       <field name="parent_class">
         <type name="GObject.ObjectClass" c:type="GObjectClass"/>
       </field>
     </record>
     <function name="app_func" c:identifier="bar_app_func">
+      <position filename="../barapp.h" line="28" column="-1"/>
       <return-value transfer-ownership="none">
         <type name="none" c:type="void"/>
       </return-value>
     </function>
     <function name="app_func2" c:identifier="bar_app_func2">
+      <position filename="../barapp.h" line="31" column="-1"/>
       <return-value transfer-ownership="none">
         <type name="none" c:type="void"/>
       </return-value>
